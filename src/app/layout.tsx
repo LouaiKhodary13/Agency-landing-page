@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { Barlow, Fraunces } from 'next/font/google';
+import Navbar from '@/components/Navbar';
 import './globals.css';
 
 const barlow = Barlow({
@@ -22,7 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className={`${barlow.className} ${fraunces.className}`}>
+      <body className={`${barlow.className} ${fraunces.className} `}>
+        <Navbar />
         {children}
       </body>
     </html>

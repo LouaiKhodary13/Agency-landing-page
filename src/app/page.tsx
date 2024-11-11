@@ -1,3 +1,9 @@
+import HeroSection from '@/components/common/HeroSection';
+
 export default function HomePage() {
-  return <h2>Lorem</h2>;
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
 }
