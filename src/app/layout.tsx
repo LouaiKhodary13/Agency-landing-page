@@ -24,8 +24,10 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={`${barlow.className} ${fraunces.className} `}>
-        <Navbar />
-        {children}
+        <div className='relative'>
+          <Navbar />
+          {children}
+        </div>
       </body>
     </html>
   );
