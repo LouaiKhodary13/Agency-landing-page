@@ -2,10 +2,16 @@ import type { Config } from 'tailwindcss';
 
 const config: Config = {
   darkMode: ['class'],
-  content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
+  safelist: [
+    'bg-egg-sec',
+    'bg-egg-sec-mob',
+    'bg-stand-out',
+    'bg-stand-out-mob',
+    'order-0',
+    'order-1',
+    'order-2',
+    'order-3',
   ],
   theme: {
     extend: {
@@ -32,6 +38,11 @@ const config: Config = {
         'egg-sec-mob': "url('/assets/mobile/image-transform.jpg')",
         'stand-out': "url('/assets/desktop/image-stand-out.jpg')",
         'stand-out-mob': "url('/assets/mobile/image-stand-out.jpg')",
+        'graphic-design-desk':
+          "url('/assets/desktop/image-graphic-design.jpg')",
+        'graphic-design-mob': "url('/assets/mobile/image-graphic-design.jpg')",
+        'photography-desk': "url('/assets/desktop/image-photography.jpg')",
+        'photography-mob': "url('/assets/mobile/image-photography.jpg')",
       },
       boxShadow: {
         'btn-shadow': '0px 16px 24px 1px rgba(0, 0, 0, 0.44)',
