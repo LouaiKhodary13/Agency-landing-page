@@ -8,6 +8,8 @@ const config: Config = {
     'bg-egg-sec-mob',
     'bg-stand-out',
     'bg-stand-out-mob',
+    'bg-gallery-sugarcubes-mob',
+    'bg-gallery-sugarcubes',
     'order-0',
     'order-1',
     'order-2',
@@ -43,6 +45,18 @@ const config: Config = {
         'graphic-design-mob': "url('/assets/mobile/image-graphic-design.jpg')",
         'photography-desk': "url('/assets/desktop/image-photography.jpg')",
         'photography-mob': "url('/assets/mobile/image-photography.jpg')",
+        'gallery-cone': "url('/assets/desktop/image-gallery-cone.jpg')",
+        'gallery-cone-mob': "url('/assets/mobile/image-gallery-cone.jpg')",
+        'gallery-milkbottles':
+          "url('/assets/desktop/image-gallery-milkbottles.jpg')",
+        'gallery-milkbottles-mob':
+          "url('/assets/mobile/image-gallery-milkbottles.jpg')",
+        'gallery-orange': "url('/assets/desktop/image-gallery-orange.jpg')",
+        'gallery-orange-mob': "url('/assets/mobile/image-gallery-orange.jpg')",
+        'gallery-sugarcubes':
+          "url('/assets/desktop/image-gallery-sugarcubes.jpg')",
+        'gallery-sugarcubes-mob':
+          "url('/assets/mobile/image-gallery-sugar-cubes.jpg')",
       },
       boxShadow: {
         'btn-shadow': '0px 16px 24px 1px rgba(0, 0, 0, 0.44)',
