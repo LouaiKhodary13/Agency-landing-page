@@ -5,7 +5,7 @@ import React from 'react';
 const Testimonials: React.FC = () => {
   return (
     <>
-      <div className='h-[80lvh] flex items-center flex-col'>
+      <div className='h-[100svh] md:h-[80lvh] flex items-center flex-col'>
         <h2 className='text-2xl uppercase text-dark-grayish-blue mt-32 font-fraunces tracking-wider'>
           client Testimonials
         </h2>
